@@ -5,15 +5,15 @@ import (
 )
 
 func printBoard() {
-	i := 10
+	i := 0
 	fmt.Println("|=============================|")
-	fmt.Println("|         TIC TAC GOE         |")
+	fmt.Println("|          TIC TAC GOE        |")
 	fmt.Println("|=============================|")
-	fmt.Sprintf("|    %d     |         |         |", i)
+	fmt.Printf("|    %d    |    %d    |    %d    |\n", i, i, i)
 	fmt.Println("|-----------------------------|")
-	fmt.Println("|         |         |         |")
+	fmt.Printf("|    %d    |    %d    |    %d    |\n", i, i, i)
 	fmt.Println("|-----------------------------|")
-	fmt.Println("|         |         |         |")
+	fmt.Printf("|    %d    |    %d    |    %d    |\n", i, i, i)
 	fmt.Println("|=============================|")
 }
 
